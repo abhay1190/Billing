@@ -1,0 +1,97 @@
+body{
+    background-color: #abddfa ;
+    
+}
+h1{
+    text-align: center;
+    color: black;
+}
+.container{
+    position: absolute;
+    width: 818px;
+    height: 428px;
+    left: 229px;
+    top: 100px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+#right{
+    position: absolute;
+    width: 367px;
+    height: 370px;
+    left: 420px;
+    top: 40px;
+    background: #9C60FF;
+    border-radius: 11px;
+}
+#left{
+    position: absolute;
+    width: 367px;
+    height: 370px;
+    left: 40px;
+    top: 40px;
+    background: #FFFFFF;
+    border-radius: 11px;
+}
+.btn{
+    display: inline-flex;
+    flex-wrap: wrap;
+    
+}
+
+button{
+    border: 2px black;
+    border-radius: 5px;
+    height: 50px;
+    width: 80px;
+    margin: 10px;
+    background-color: aquamarine;
+}
+button:hover{
+    background-color: rgb(29, 223, 11);
+}
+.amountr{
+    display: inline-flex;
+}
+.ru{
+    display: inline;
+}
+.top{
+    display: inline-flex;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+.tl{
+    text-align: left;
+    font-size: 15px;
+}
+#tr{
+    text-align: right;
+   margin-left: 140px;
+   font-size: 50px;
+}
+.ml{
+    margin-left: 10px;
+    text-align: left;
+    font-size: 18px;
+}
+#mr{
+    text-align: right;
+    margin-right: 30px;
+   margin-top: -70px;
+   margin-left: -50px;
+   font-size: 50px;
+}
+#Calculate{
+  background-color: rgb(99, 211, 99);
+  font-size: 20px;
+  border: 2px solid black;
+  margin: 10px;
+  width: 100px;
+}
+#Reset{
+  background-color: rgb(238, 97, 97);
+  font-size: 20px;
+  border: 2px solid black;
+  margin: 10px;
+}

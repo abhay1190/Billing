@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Spill</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>Bill Spill</h1>
+    <div class="container">
+        <!-- Left Div -->
+        <div id="left">
+         <div class="amountr">
+            <label for="Amount">Bill <br> 
+            <div class="ru"><img align="left" height="20px" width="30px" src="D:\Cuvette prog\Bill Spill\icons\icon.jpg" alt="of"></div>
+            <div class="ru"><input  type="number" id="Amount" min="1"  placeholder="Enter Bill Amount" required> </div>
+        </label>
+         </div>
+         <!-- Buttons of % -->
+         <h4>Select Tip %</h4>
+         <div class="btn">
+            <button id="tip5" onclick="Tipper('tip5')">5%</button>
+            <button id="tip10" onclick="Tipper('tip10')">10%</button>
+            <button id="tip15" onclick="Tipper('tip15')">15%</button>
+            <button id="tip25" onclick="Tipper('tip25')">25%</button>
+            <button id="tip50" onclick="Tipper('tip50')">50%</button>
+            <button id="tip75" onclick="Tipper('tip75')">75%</button>
+             
+         </div>
+
+         <div>
+          <div class="persons">
+            <label for="person">No. Of People <br> 
+            <div class="ru"><img align="left" height="20px" width="30px" src="D:\Cuvette prog\Bill Spill\icons\ppl.webp" alt="of"></div>
+            <div class="ru"><input  type="number" id="person" min="1"  placeholder="Number Of People" required> </div>
+        </label>
+         </div>
+         </div>
+        </div>
+        <!-- Right Div -->
+        <div id="right">
+            <div class="top">
+                <div class="tl">
+                    <h3>Tip Amount</h3>
+                    <h5>/person</h5>
+                </div>
+                <div id="tr">0.00</div>
+            </div>
+
+            <div class="mid">
+                <div class="ml">
+                    <h3>Total</h3>
+                    <h5>/person</h5>
+                </div>
+                <div id="mr">0.00</div>
+            </div>
+
+            <button id="Calculate" onclick="calc()">Calculate</button>
+            <button id="Reset" onclick="reset()">Reset</button>
+        </div>
+    </div>
+</body>
+
+</html>
